@@ -1,0 +1,5 @@
+@media screen and (max-height: 829px) {
+    .container {
+        margin: 130px auto;
+    }
+}

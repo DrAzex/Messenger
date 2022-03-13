@@ -1,0 +1,134 @@
+@media screen and (max-width: 1396px) {
+    .my-contact{
+        width: 333px;
+    }
+
+    .name-contact-messege-now{
+        width: 251px;
+    }
+}
+
+@media screen and (max-height: 864px) {
+    .main-text-block{
+        margin: 19rem auto;
+    }
+
+    .center-contacts-box {
+        margin: 137px auto;
+    }
+}
+
+@media screen and (max-height: 688px) {
+    .main-text-block{
+        margin: 15rem auto;
+    }
+
+    .center-contacts-box {
+        margin: 106px auto;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .my-contact{
+        width: 321px;
+        margin-left: 7px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .my-contact{
+        width: 321px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .main{
+        display: none;
+    }
+
+    .messenger-chats{
+        width: 100%;
+    }
+
+    .my-contact{
+        margin: 10px 0px;
+        width: 100%;
+    }
+
+    .name-contact-messege-now{
+        width: 100%;
+    }
+
+    .search-box{
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .chats-title-box{
+        width: 95%;
+    }
+
+    .main{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        z-index: 2222;
+        background-color: #323333;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .catharine .nav-top-messege{
+        width: 97%;
+    }
+
+    .catharine .messengere-footer{
+        width: 95%;
+    }
+
+    .catharine .input-footer{
+        width: 98%;
+    }
+
+    .group .nav-top-messege{
+        width: 97%;
+    }
+
+    .group .messengere-footer{
+        width: 95%;
+    }
+
+    .group .input-footer{
+        width: 98%;
+    }
+
+    .catharine .back-box{
+        display: flex;
+    }
+
+    .group .back-box{
+        display: flex;
+    }
+
+    .main-calls, .main-friends, .main-messengere{
+        z-index: 1111;
+        width: 95%;
+        left: 30px;
+    }
+
+    .my-contact-box-left{
+        z-index: 3333;
+    }
+
+    .media-none{
+        display: none!important;
+    }
+}
+
+@media screen and (max-width: 1048px) {
+    .main-calls, .main-friends, .main-messengere {
+        width: 94%;
+    }
+}
